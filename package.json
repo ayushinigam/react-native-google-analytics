@@ -1,0 +1,31 @@
+{
+  "name": "Demo-GA",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "jest": "^23.5.0",
+    "jest-react-native": "^18.0.0",
+    "react-test-renderer": "16.3.1"
+  },
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "dependencies": {
+    "connect": "^3.6.6",
+    "react": "16.3.1",
+    "react-native": "~0.55.2",
+    "react-native-google-analytics-bridge": "^5.8.0",
+    "react-navigation": "^2.11.2",
+    "react-navigation-redux-helpers": "^2.0.5",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-ga-screen-tracker": "^1.4.0"
+  }
+}
